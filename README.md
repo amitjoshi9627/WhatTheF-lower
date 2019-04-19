@@ -18,9 +18,9 @@ The dataset contains 3670 images of flowers. The pictures are divided into five 
 1. Resize all the input images to 48x48.
 2. 90% training samples && 10% validation samples.
 ### Model Training
-  python3 train.py
+  `python3 train.py`
 ### Model Predictions
-  python3 predict.py (filename)
+  `python3 predict.py <filename>`
 ### Notes
 * Computing: Google Colab Tesla K80 GPU
 * Python version: 3.6.3
@@ -28,3 +28,4 @@ The dataset contains 3670 images of flowers. The pictures are divided into five 
   1. [`Keras`](https://www.tensorflow.org/guide/keras) (tensorflow.python.keras) for building models 
   2. [`OpenCV`](https://opencv.org/) (cv2) for processing images
   3. [`sikit-learn`](http://scikit-learn.org/stable/) (sklearn) for train_test_split 
+  4. Install necessary modules with `sudo pip3 install -r requirements.txt` command.
