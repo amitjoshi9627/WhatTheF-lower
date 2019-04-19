@@ -17,7 +17,10 @@ The dataset contains 3670 images of flowers. The pictures are divided into five 
 ### Preprocessing
 1. Resize all the input images to 48x48.
 2. 90% training samples && 10% validation samples.
-
+### Model Training
+  python3 train.py
+### Model Predictions
+  python3 predict.py (filename)
 ### Notes
 * Computing: Google Colab Tesla K80 GPU
 * Python version: 3.6.3
